@@ -5,8 +5,10 @@
   "logo": "https://raw.githubusercontent.com/cljs/logo/master/cljs-white.png",
   "keywords": ["rails", "clojurescript", "cljs-rails"],
   "env": {
-    "description": "The command used by the boot buildback to compile cljs",
-    "value": "boot prod"
+    "BOOTBUILD_CMD": {
+      "description": "The command used by the boot buildback to compile cljs",
+      "value": "boot prod"
+    }
   },
   "buildpacks": [
     { "url": "https://github.com/taylorSando/heroku-buildpack-boot" },
