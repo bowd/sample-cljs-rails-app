@@ -19,3 +19,8 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+# Added by cljs-rails
+/cljs/target
+# Added by cljs-rails
+/app/assets/cljs-build
+.nrepl-port

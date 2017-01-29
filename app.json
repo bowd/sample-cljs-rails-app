@@ -1,0 +1,15 @@
+{
+  "name": "Clojurescript Rails sample app",
+  "description": "A barebones Rails app using cljs-rails to compile Clojurescript",
+  "repository": "https://github.com/bogdan-dumitru/sample-cljs-rails-app",
+  "logo": "https://raw.githubusercontent.com/cljs/logo/master/cljs-white.png",
+  "keywords": ["rails", "clojurescript", "cljs-rails"],
+  "env": {
+    "description": "The command used by the boot buildback to compile cljs",
+    "value": "boot prod"
+  },
+  "buildpacks": [
+    { "url": "https://github.com/taylorSando/heroku-buildpack-boot" },
+    { "url": "https://github.com/heroku/heroku-buildpack-ruby" }
+  ]
+}
